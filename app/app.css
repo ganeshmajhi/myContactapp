@@ -1,0 +1,45 @@
+/* app css stylesheet */
+
+.menu {
+  list-style: none;
+  border-bottom: 0.1em solid black;
+  margin-bottom: 2em;
+  padding: 0 0 0.5em;
+}
+
+.menu:before {
+  content: "[";
+}
+
+.menu:after {
+  content: "]";
+}
+
+.menu > li {
+  display: inline;
+}
+
+.menu > li + li:before {
+  content: "|";
+  padding-right: 0.3em;
+}
+
+.panel{
+	background: #9f9f9f;
+	border:#ccc 1px solid;
+}
+
+ul,li{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+li{
+	line-height: 1.8em;
+}
+h5{
+	margin: 10px 0;
+	padding: 5px 0;
+	background: #f4f4f4;
+	padding:10px;
+}
